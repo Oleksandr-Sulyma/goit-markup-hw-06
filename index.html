@@ -25,7 +25,7 @@
   </head>
 
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="header-container container">
         <nav class="menu">
           <a class="logo" href="./index.html">Web<span>Studio</span></a>
@@ -55,18 +55,83 @@
             </li>
           </ul>
         </address>
-        <button class="header-btn">
-          <svg class="header-btn-icom" width="24" height="24">
+        <button class="header-btn" type="button" data-menu-open>
+          <svg class="header-btn-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-open-menu"></use>
           </svg>
         </button>
       </div>
-      <div class="mobil-menu">
-        <div class="mobil-menu-container container"></div>
-      </div>
-    </header> -->
+      <div class="mobile-menu" data-menu>
+            <div class="mobil-menu-container container">
+              <button class="mobile-menu-close" data-menu-close>
+                <svg class="menu-clos-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-vector-close"></use>
+              </svg>
+            </button>
+              <div class="menu-mobil">
+                <ul class="menu-list-mobil">
+                  <li class="menu-item">
+                    <a class="menu-link current" href="./index.html">Studio</a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="">Portfolio</a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="">Contacts</a>
+                  </li>
+                </ul>
+                <address class="address-mobile">
+                  <ul class="address-list">
+                    <li class="address-item">
+                      <a class="address-link" href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                      >
+                    </li>
+                    <li class="address-item">
+                      <a class="address-link" href="tel:+110001111111"
+                        >+11 (000) 111-11-11</a
+                      >
+                    </li>
+                  </ul>
+                </address>
+                <ul class="menu-social-list">
+                  <li class="social-item">
+                    <a class="social-link" href=""
+                      ><svg class="social-icons" width="16" height="16">
+                        <use
+                          href="./images/icons.svg#icon-instagram"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href=""
+                      ><svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href=""
+                      ><svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href=""
+                      ><svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use></svg
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </header>
 
-    <header class="header">
+          
+
+          
+    
+    <!-- <header class="header">
       <div class="header-container container">
         <nav class="menu">
           <a class="logo" href="./index.html">Web<span>Studio</span></a>
@@ -102,7 +167,7 @@
             <span class="burger-icon"></span>
           </label>
           <div class="mobil-menu">
-            <div class="mobil-menu-container container">
+            <div class="mobil-menu-container">
               <div class="menu-mobil">
                 <ul class="menu-list-mobil">
                   <li class="menu-item">
@@ -115,52 +180,54 @@
                     <a class="menu-link" href="">Contacts</a>
                   </li>
                 </ul>
-              </div>
-              <address class="address-mobile">
-                <ul class="address-list">
-                  <li class="address-item">
-                    <a class="address-link" href="mailto:info@devstudio.com"
-                      >info@devstudio.com</a
-                    >
+                <address class="address-mobile">
+                  <ul class="address-list">
+                    <li class="address-item">
+                      <a class="address-link" href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                      >
+                    </li>
+                    <li class="address-item">
+                      <a class="address-link" href="tel:+110001111111"
+                        >+11 (000) 111-11-11</a
+                      >
+                    </li>
+                  </ul>
+                </address>
+                <ul class="menu-social-list">
+                  <li class="social-item">
+                    <a class="social-link" href=""
+                      ><svg class="social-icons" width="16" height="16">
+                        <use
+                          href="./images/icons.svg#icon-instagram"
+                        ></use></svg
+                    ></a>
                   </li>
-                  <li class="address-item">
-                    <a class="address-link" href="tel:+110001111111"
-                      >+11 (000) 111-11-11</a
-                    >
+                  <li class="social-item">
+                    <a class="social-link" href=""
+                      ><svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href=""
+                      ><svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link" href=""
+                      ><svg class="social-icons" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use></svg
+                    ></a>
                   </li>
                 </ul>
-              </address>
-              <ul class="menu-social-list">
-                <li class="social-item">
-                  <a class="social-link" href=""
-                    ><svg class="social-icons" width="16" height="16">
-                      <use href="./images/icons.svg#icon-instagram"></use></svg
-                  ></a>
-                </li>
-                <li class="social-item">
-                  <a class="social-link" href=""
-                    ><svg class="social-icons" width="16" height="16">
-                      <use href="./images/icons.svg#icon-twitter"></use></svg
-                  ></a>
-                </li>
-                <li class="social-item">
-                  <a class="social-link" href=""
-                    ><svg class="social-icons" width="16" height="16">
-                      <use href="./images/icons.svg#icon-facebook"></use></svg
-                  ></a>
-                </li>
-                <li class="social-item">
-                  <a class="social-link" href=""
-                    ><svg class="social-icons" width="16" height="16">
-                      <use href="./images/icons.svg#icon-linkedin"></use></svg
-                  ></a>
-                </li>
-              </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
 
     <main class="main">
       <section class="hero">
@@ -736,7 +803,7 @@
               </svg>
             </button>
           </form>
-        </div>
+        
       </div>
     </footer>
 
@@ -827,5 +894,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
